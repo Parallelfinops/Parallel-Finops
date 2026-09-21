@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel FinOps | Outsourced Bookkeeping for Global Firms & Businesses</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Outsourced QuickBooks & Xero bookkeeping for global firms and businesses. Save 60% on costs with 100% US GAAP accuracy. Start a 7-day free trial.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#111827',
+                            900: '#0f172a',
+                            950: '#020617',
+                        },
+                        emerald: {
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.1) 0%, rgba(15, 23, 42, 0) 70%);
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-navy-950 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-3 overflow-x-auto py-1 sm:py-0">
+                <span class="inline-flex items-center text-emerald-400 font-semibold whitespace-nowrap">
+                    <i class="ph-bold ph-shield-check mr-1 text-sm"></i> 256-Bit Encrypted
+                </span>
+                <span class="text-slate-700">|</span>
+                <span class="inline-flex items-center text-slate-300 whitespace-nowrap">
+                    <i class="ph-bold ph-certificate mr-1 text-emerald-400 text-sm"></i> SOC 2 Type II
+                </span>
+                <span class="text-slate-700">|</span>
+                <span class="inline-flex items-center text-slate-300 whitespace-nowrap">
+                    <i class="ph-bold ph-file-lock mr-1 text-emerald-400 text-sm"></i> 100% NDA Protected
+                </span>
+                <span class="text-slate-700">|</span>
+                <span class="inline-flex items-center text-slate-300 whitespace-nowrap">
+                    <i class="ph-bold ph-check-square-offset mr-1 text-emerald-400 text-sm"></i> US GAAP Compliant
+                </span>
+            </div>
+            <div class="flex items-center space-x-4 text-xs font-medium">
+                <a href="mailto:support@parallelfinops.com" class="hover:text-emerald-400 transition-colors flex items-center">
+                    <i class="ph-bold ph-envelope mr-1 text-emerald-400"></i> support@parallelfinops.com
+                </a>
+                <span class="text-slate-700">|</span>
+                <a href="https://wa.me/919384757224" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center">
+                    <i class="ph-bold ph-whatsapp-logo mr-1 text-emerald-400"></i> WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Nav -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-navy-950 rounded-xl flex items-center justify-center text-emerald-400 font-black text-xl shadow-md border border-slate-800">
+                    P<span class="text-white">F</span>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-navy-900 tracking-tight">Parallel<span class="text-emerald-600">FinOps</span></span>
+                    <span class="block text-[10px] font-bold uppercase tracking-widest text-slate-400 -mt-1">Offshore Back-Office</span>
+                </div>
+            </a>
+
+            <nav class="hidden lg:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-emerald-600 transition-colors">Why Offshore</a>
+                <a href="#services" class="hover:text-emerald-600 transition-colors">Services</a>
+                <a href="#software" class="hover:text-emerald-600 transition-colors">Software</a>
+                <a href="#how-it-works" class="hover:text-emerald-600 transition-colors">How It Works</a>
+                <a href="#pricing" class="hover:text-emerald-600 transition-colors">Pricing</a>
+                <a href="#testimonials" class="hover:text-emerald-600 transition-colors">Case Studies</a>
+            </nav>
+
+            <div class="hidden sm:flex items-center space-x-3">
+                <button onclick="openModal('demo')" class="px-4 py-2.5 rounded-xl border-2 border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white font-bold text-xs uppercase tracking-wider transition-all duration-200">
+                    Book a Free Call
+                </button>
+                <button onclick="openModal('trial')" class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-emerald-600/20 transition-all duration-200">
+                    Start 7-Day Free Trial
+                </button>
+            </div>
+
+            <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100">
+                <i class="ph-bold ph-list text-2xl"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-6 space-y-3">
+            <a href="#about" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">Why Offshore</a>
+            <a href="#services" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">Services</a>
+            <a href="#software" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">Software</a>
+            <a href="#how-it-works" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">How It Works</a>
+            <a href="#pricing" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">Pricing</a>
+            <a href="#testimonials" class="block py-2 text-slate-600 font-semibold" onclick="toggleMobileMenu()">Case Studies</a>
+            <div class="pt-4 border-t border-slate-100 flex flex-col space-y-2">
+                <button onclick="openModal('demo'); toggleMobileMenu();" class="w-full py-3 rounded-xl border border-navy-900 text-navy-900 font-bold text-sm">Book a Free Call</button>
+                <button onclick="openModal('trial'); toggleMobileMenu();" class="w-full py-3 rounded-xl bg-emerald-600 text-white font-bold text-sm">Start 7-Day Free Trial</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-12 pb-20 lg:pt-16 lg:pb-28 overflow-hidden bg-white hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-bold">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        Virtual Back-Office in India for Global Accounting
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-navy-900 tracking-tight leading-tight">
+                        Outsourced Bookkeeping for Global Businesses & CPA Firms – <span class="text-emerald-600">Save 60% on Costs</span>
+                    </h1>
+                    
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-medium">
+                        We are your virtual back-office in India. QuickBooks & Xero bookkeepers working while you sleep. 100% Accurate, Secure & NDA Protected.
+                    </p>
+
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <button onclick="openModal('trial')" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base shadow-xl shadow-emerald-600/25 hover:shadow-emerald-600/40 transition-all flex items-center justify-center">
+                            Start 7-Day Free Trial
+                            <i class="ph-bold ph-arrow-right ml-2 text-lg"></i>
+                        </button>
+                        <button onclick="openModal('demo')" class="w-full sm:w-auto px-8 py-4 rounded-xl border-2 border-navy-900 hover:bg-navy-900 hover:text-white text-navy-900 font-extrabold text-base transition-all flex items-center justify-center">
+                            <i class="ph-bold ph-calendar-blank mr-2 text-lg"></i>
+                            Book a Free Call
+                        </button>
+                    </div>
+
+                    <!-- Trust Strip -->
+                    <div class="pt-8 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-3 gap-3 text-left">
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>QuickBooks</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>Xero</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>50+ US Clients Managed</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>GDPR & SOC2 Compliant</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>NDA Protected</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs font-bold text-slate-700">
+                            <i class="ph-fill ph-check-circle text-emerald-600 text-base"></i>
+                            <span>Month-to-Month Service</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Dashboard Visual -->
+                <div class="lg:col-span-5">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-emerald-500 to-navy-900 opacity-20 blur-xl"></div>
+                        <div class="relative bg-navy-950 rounded-2xl shadow-2xl p-6 text-white border border-slate-800">
+                            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                </div>
+                                <span class="text-xs font-mono text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-md border border-emerald-800/50">Overnight Sync: Active</span>
+                            </div>
+
+                            <div class="mt-6 space-y-4">
+                                <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800">
+                                    <div class="flex justify-between items-center text-xs text-slate-400 mb-1">
+                                        <span>Morning Status Update</span>
+                                        <span class="text-emerald-400 font-semibold">06:00 AM EST</span>
+                                    </div>
+                                    <p class="text-sm font-semibold text-slate-200">
+                                        ✓ 184 Bank & Credit Card Line Items Reconciled<br>
+                                        ✓ AP/AR Invoices Logged in QBO<br>
+                                        ✓ Monthly Closing Statement Ready
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                                        <span class="text-[11px] text-slate-400">Cost starting at</span>
+                                        <p class="text-xl font-extrabold text-white">$299 <span class="text-xs text-slate-400 font-normal">/mo</span></p>
+                                        <span class="text-[10px] text-emerald-400 font-bold">VS $3,500+ US Salary</span>
+                                    </div>
+                                    <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
+                                        <span class="text-[11px] text-slate-400">Turnaround</span>
+                                        <p class="text-xl font-extrabold text-white">&lt; 12 Hours</p>
+                                        <span class="text-[10px] text-emerald-400 font-bold">Work While You Sleep</span>
+                                    </div>
+                                </div>
+
+                                <div class="p-3.5 bg-emerald-950/40 border border-emerald-500/30 rounded-xl flex items-center space-x-3">
+                                    <i class="ph-bold ph-shield-check text-2xl text-emerald-400 shrink-0"></i>
+                                    <div>
+                                        <p class="text-xs font-bold text-slate-200">Risk-Free 7-Day Trial</p>
+                                        <p class="text-[11px] text-slate-400">Test us on live transaction data with no payment commitment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem vs Solution -->
+    <section id="about" class="py-20 bg-slate-100/80 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Problem vs Solution</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3 tracking-tight">Stop Overpaying for Bookkeeping</h2>
+                <p class="text-slate-600 mt-3 font-medium text-base">
+                    Hiring a full-time bookkeeper in the US costs $3,500+/mo. Get the same quality with our dedicated Indian team at $299/mo. Focus on growing your business, we handle the books.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- In-House Bookkeeper -->
+                <div class="bg-white p-8 rounded-2xl border border-red-200 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-100 text-red-700 text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-bl-xl border-l border-b border-red-200">
+                        Traditional Hiring
+                    </div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 rounded-xl bg-red-50 text-red-600 flex items-center justify-center text-2xl">
+                            <i class="ph-bold ph-currency-dollar-simple"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-navy-900">In-House Bookkeeper</h3>
+                            <p class="text-xs text-slate-500 font-bold">$3,500 - $4,500 / month average cost</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 text-sm text-slate-600 font-medium">
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-x-circle text-red-500 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>High Overhead:</strong> Payroll taxes, healthcare, equipment, & software licenses.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-x-circle text-red-500 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>Standard Hours:</strong> Updates happen during work hours when you need reports ready.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-x-circle text-red-500 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>Single Person Dependency:</strong> Sick leaves, vacation delays, or turnover disrupt books.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Parallel FinOps Team -->
+                <div class="bg-white p-8 rounded-2xl border-2 border-emerald-500 shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-emerald-600 text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1 rounded-bl-xl">
+                        Parallel FinOps Virtual Team
+                    </div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl">
+                            <i class="ph-bold ph-rocket-launch"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-navy-900">Dedicated Indian Back-Office</h3>
+                            <p class="text-xs text-emerald-600 font-bold">Starts at $299 / month (Save 60%+)</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 text-sm text-slate-600 font-medium">
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-check-circle text-emerald-600 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>Huge Cost Savings:</strong> Flat pricing starting at $299/mo. Zero hiring or benefits expense.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-check-circle text-emerald-600 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>Work While You Sleep:</strong> Indian timezone advantage delivers fresh books by morning.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="ph-bold ph-check-circle text-emerald-600 text-lg mr-3 mt-0.5 shrink-0"></i>
+                            <span><strong>QuickBooks & Xero:</strong> Trained in US GAAP, tax prep, and financial software.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Our Services</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3 tracking-tight">Our Bookkeeping Services</h2>
+                <p class="text-slate-600 mt-3 font-medium">End-to-end accounting support tailored for Global small businesses & CPA firms.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="ph-bold ph-calendar-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-2">1. Monthly Bookkeeping</h3>
+                        <p class="text-slate-600 text-sm font-medium">
+                            Transaction categorization, bank & credit card reconciliation, monthly P&L and Balance Sheet preparation.
+                        </p>
+                    </div>
+                    <button onclick="openModal('trial')" class="mt-6 w-full py-2.5 rounded-xl border border-navy-900 text-navy-900 font-bold text-xs hover:bg-navy-900 hover:text-white transition-colors">
+                        Select Plan
+                    </button>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="ph-bold ph-broom"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-2">2. Catch-Up & Cleanup</h3>
+                        <p class="text-slate-600 text-sm font-medium">
+                            Behind on books? We systematically organize, reconcile, and fix months of backlogged transactions tax-ready in days.
+                        </p>
+                    </div>
+                    <button onclick="openModal('demo')" class="mt-6 w-full py-2.5 rounded-xl border border-navy-900 text-navy-900 font-bold text-xs hover:bg-navy-900 hover:text-white transition-colors">
+                        Request Quote
+                    </button>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="ph-bold ph-receipt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-2">3. Accounts Payable / Receivable</h3>
+                        <p class="text-slate-600 text-sm font-medium">
+                            Bill pay management, invoice creation, vendor payment tracking, aging reports, and customer follow-ups.
+                        </p>
+                    </div>
+                    <button onclick="openModal('trial')" class="mt-6 w-full py-2.5 rounded-xl border border-navy-900 text-navy-900 font-bold text-xs hover:bg-navy-900 hover:text-white transition-colors">
+                        Select Plan
+                    </button>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-purple-100 text-purple-700 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="ph-bold ph-users"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-2">4. Payroll Bookkeeping</h3>
+                        <p class="text-slate-600 text-sm font-medium">
+                            Payroll journal entry, integration with Gusto/ADP/Paychex, contractor 1099 tracking, and payroll reporting.
+                        </p>
+                    </div>
+                    <button onclick="openModal('trial')" class="mt-6 w-full py-2.5 rounded-xl border border-navy-900 text-navy-900 font-bold text-xs hover:bg-navy-900 hover:text-white transition-colors">
+                        Select Plan
+                    </button>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between lg:col-span-2">
+                    <div>
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center text-2xl mb-4">
+                            <i class="ph-bold ph-briefcase"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-2">5. White-Label for CPA Firms</h3>
+                        <p class="text-slate-600 text-sm font-medium">
+                            We work silently under your accounting firm's brand. Complete white-label service with dedicated offshore full-time equivalents (FTEs), custom SOPs, and strict non-competes.
+                        </p>
+                    </div>
+                    <button onclick="openModal('demo')" class="mt-6 w-full py-2.5 rounded-xl bg-navy-950 text-white font-bold text-xs hover:bg-emerald-600 transition-colors">
+                        Request CPA White-Label Proposal
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Software Expertise -->
+    <section id="software" class="py-16 bg-navy-950 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">Software Expertise</span>
+                <h2 class="text-3xl font-extrabold mt-3">We Are Experts In Your Favorite Software</h2>
+                <p class="text-slate-400 text-sm mt-2">Knowledge across leading cloud accounting tools with zero learning curve.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-squares-four text-3xl text-emerald-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">QuickBooks</h4>
+                    <span class="text-[10px] text-emerald-400 font-semibold mt-1">ProAdvisor</span>
+                </div>
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-globe text-3xl text-sky-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">Xero</h4>
+                    <span class="text-[10px] text-sky-400 font-semibold mt-1">Certified Advisor</span>
+                </div>
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-books text-3xl text-red-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">Zoho Books</h4>
+                    <span class="text-[10px] text-slate-400 font-semibold mt-1">Expert Partner</span>
+                </div>
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-chart-bar text-3xl text-blue-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">Oracle NetSuite</h4>
+                    <span class="text-[10px] text-slate-400 font-semibold mt-1">Enterprise Ready</span>
+                </div>
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-wave-sine text-3xl text-indigo-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">Wave</h4>
+                    <span class="text-[10px] text-slate-400 font-semibold mt-1">Small Biz Expert</span>
+                </div>
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col items-center text-center hover:border-emerald-500 transition-colors">
+                    <i class="ph-bold ph-file-text text-3xl text-amber-400 mb-2"></i>
+                    <h4 class="font-bold text-sm">Sage & Bill.com</h4>
+                    <span class="text-[10px] text-slate-400 font-semibold mt-1">AP/AR Workflow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Simple Process</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3 tracking-tight">How It Works - In 3 Simple Steps</h2>
+                <p class="text-slate-600 mt-3 font-medium">Getting started is smooth, secure, and requires zero long-term commitment.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm relative">
+                    <div class="w-12 h-12 rounded-2xl bg-navy-900 text-white font-black flex items-center justify-center text-lg mb-4">
+                        Step 1
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-2">Free Consultation</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                        Share your books on a quick 15-minute Zoom call. We assess transaction volume, software setup, and current backlogs.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border-2 border-emerald-500 shadow-md relative">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white font-black flex items-center justify-center text-lg mb-4">
+                        Step 2
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-2">7-Day Free Trial</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                        We work on your live data under an NDA for 7 days at no charge. Evaluate speed, accuracy, and reports firsthand.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm relative">
+                    <div class="w-12 h-12 rounded-2xl bg-navy-900 text-white font-black flex items-center justify-center text-lg mb-4">
+                        Step 3
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-2">Go Live</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed font-medium">
+                        Get matched with a dedicated bookkeeper. Enjoy overnight updates and daily status check-ins on email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Transparent Pricing</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3 tracking-tight">Predictable Plans, No Hidden Fees</h2>
+                <p class="text-slate-600 mt-3 font-medium">Choose a plan that fits your business stage. Cancel or upgrade anytime.</p>
+                
+                <!-- Toggle -->
+                <div class="mt-8 flex items-center justify-center space-x-4">
+                    <span class="text-xs font-bold text-slate-600" id="monthly-label">Monthly Billing</span>
+                    <button id="pricing-toggle" onclick="toggleBilling()" class="w-14 h-8 bg-emerald-600 rounded-full p-1 focus:outline-none">
+                        <div id="toggle-circle" class="w-6 h-6 bg-white rounded-full shadow-md transform transition-transform"></div>
+                    </button>
+                    <span class="text-xs font-bold text-slate-400" id="annual-label">
+                        Annual Billing <span class="text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200 text-[10px]">Save 15%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                
+                <!-- Starter Plan -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-navy-900">Starter</h3>
+                            <span class="text-[10px] font-extrabold uppercase bg-slate-200 text-slate-700 px-2.5 py-1 rounded-md">Small Business</span>
+                        </div>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-navy-900 price-value" data-monthly="199" data-annual="125">$199</span>
+                            <span class="text-xs text-slate-500 font-bold">/ month</span>
+                        </div>
+                        <ul class="space-y-3.5 text-xs text-slate-600 font-semibold mb-8">
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to 100 transactions/month</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to $15k Monthly Expenses</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> 1 Bank / Card Reconciliation</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Monthly Financial Statements</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Email Direct Support</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('trial')" class="w-full py-3 rounded-xl border-2 border-navy-900 text-navy-900 font-bold text-xs uppercase tracking-wider hover:bg-navy-900 hover:text-white transition-all">
+                        Start 7-Day Free Trial
+                    </button>
+                </div>
+
+                <!-- Growth Plan -->
+                <div class="bg-white p-8 rounded-2xl border-2 border-emerald-500 shadow-2xl relative flex flex-col justify-between transform md:-translate-y-2">
+                    <div class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 bg-emerald-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-4 py-1 rounded-full shadow-md">
+                        Most Popular
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-center mb-4 mt-2">
+                            <h3 class="text-xl font-bold text-navy-900">Growth</h3>
+                            <span class="text-[10px] font-extrabold uppercase bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-md">Scaling Firms</span>
+                        </div>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-navy-900 price-value" data-monthly="299" data-annual="249">$299</span>
+                            <span class="text-xs text-slate-500 font-bold">/ month</span>
+                        </div>
+                        <ul class="space-y-3.5 text-xs text-slate-700 font-bold mb-8">
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to 150 transactions/month</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to $50k Monthly Expenses</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to 3 Bank/Card Reconciliations</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Monthly Financial Statements</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Email Direct Support</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Multi-Client Subcontracting</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Dedicated Virtual Bookkeeper</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Year-End Tax Package Ready</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('trial')" class="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider shadow-lg shadow-emerald-600/30 transition-all">
+                        Start 7-Day Free Trial
+                    </button>
+                </div>
+
+                <!-- CPA White-Label -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-bold text-navy-900">CPA Partner</h3>
+                            <span class="text-[10px] font-extrabold uppercase bg-navy-100 text-navy-800 px-2.5 py-1 rounded-md">CPA Firms</span>
+                        </div>
+                        <div class="mb-6">
+                            <span class="text-4xl font-extrabold text-navy-900 price-value" data-monthly="499" data-annual="499">$499+</span>
+                            <span class="text-xs text-slate-500 font-bold">/ month</span>
+                        </div>
+                        <ul class="space-y-3.5 text-xs text-slate-600 font-semibold mb-8">
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to 300 transactions/month</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to $150k Monthly Expenses</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Up to 4 Bank/Card Reconciliations</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Monthly Financial Statements</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Email Direct Support</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Multi-Client Subcontracting</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Dedicated Full-Time Offshore FTE</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Year-End Tax Package Ready</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> 100% White-Label (Your Brand)</li>
+                            <li class="flex items-center"><i class="ph-bold ph-check text-emerald-600 mr-2 text-base"></i> Strict Non-Compete Guarantee</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal('demo')" class="w-full py-3 rounded-xl border-2 border-navy-900 text-navy-900 font-bold text-xs uppercase tracking-wider hover:bg-navy-900 hover:text-white transition-all">
+                        Book CPA Strategy Call
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">Early Pilot Results</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 tracking-tight">Trusted by Early Global Clients</h2>
+                <p class="text-slate-400 mt-3 text-sm">Real proof from early startup pilots and accounting partners.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-amber-400 text-sm mb-3">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-6">
+                            "Cleaned 8 months backlog in 4 days! We were totally lost before tax season until Parallel FinOps took over. Flawless work on QuickBooks."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-slate-700">
+                        <div class="w-10 h-10 rounded-full bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-sm">
+                            MH
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Michael H.</h4>
+                            <p class="text-[11px] text-slate-400">E-Commerce Founder (Austin, TX)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-amber-400 text-sm mb-3">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-6">
+                            "Subcontracted 5 client accounts under white-label. Their team operates quietly, accurately, and saves our firm over $10,000 annually."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-slate-700">
+                        <div class="w-10 h-10 rounded-full bg-blue-500/20 text-blue-400 font-bold flex items-center justify-center text-sm">
+                            DB
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">David B., CPA</h4>
+                            <p class="text-[11px] text-slate-400">Managing Partner (Chicago, IL)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-amber-400 text-sm mb-3">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="text-slate-300 text-sm italic mb-6">
+                            "The overnight turnaround is insane. I submit questions before sleeping and wake up to completed ledger entries in Xero."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-slate-700">
+                        <div class="w-10 h-10 rounded-full bg-purple-500/20 text-purple-400 font-bold flex items-center justify-center text-sm">
+                            SL
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold text-white">Sarah L.</h4>
+                            <p class="text-[11px] text-slate-400">SaaS Founder (London, UK)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA Banner -->
+    <section class="py-16 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 space-y-6">
+            <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight">
+                Get Your Books Done Before You Wake Up Tomorrow
+            </h2>
+            <p class="text-slate-300 text-base font-medium max-w-2xl mx-auto">
+                Stop stressing about messy transactions. Get a dedicated bookkeeper starting tomorrow.
+            </p>
+            <div class="pt-2 flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="openModal('trial')" class="px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base shadow-xl shadow-emerald-600/30 transition-all">
+                    Claim My 7-Day Free Trial Now
+                </button>
+            </div>
+            <p class="text-xs text-slate-400">✓ No Credit Card Required &bull; ✓ Instant NDA Sign &bull; ✓ 100% Free Consultation</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="space-y-3">
+                    <span class="text-lg font-bold text-white tracking-tight">Parallel<span class="text-emerald-500">FinOps</span></span>
+                    <p class="text-slate-400 leading-relaxed">
+                        Virtual back-office team in India. Delivering 100% accurate, US/UK GAAP compliant bookkeeping for CPAs and small businesses.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold uppercase text-[11px] mb-3">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="hover:text-emerald-400">Services</a></li>
+                        <li><a href="#software" class="hover:text-emerald-400">Software We Use</a></li>
+                        <li><a href="#pricing" class="hover:text-emerald-400">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold uppercase text-[11px] mb-3">Legal & Security</h4>
+                    <ul class="space-y-2">
+                        <li><a href="javascript:void(0)" onclick="openLegalModal('privacy')" class="hover:text-emerald-400">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)" onclick="openLegalModal('terms')" class="hover:text-emerald-400">Terms of Service</a></li>
+                        <li><a href="javascript:void(0)" onclick="openLegalModal('security')" class="hover:text-emerald-400">Data Security Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold uppercase text-[11px] mb-3">Contact</h4>
+                    <p>Email: support@parallelfinops.com</p>
+                    <p class="mt-1">WhatsApp: +91-9384757224</p>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-slate-900 flex justify-between items-center text-[11px]">
+                <p>&copy; 2026 Parallel FinOps. All rights reserved.</p>
+                <p>Offshore Bookkeeping for Global Businesses and Firms</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lead Capture Modal -->
+    <div id="modal-backdrop" class="fixed inset-0 bg-navy-950/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden border border-slate-200">
+            <div class="bg-navy-900 p-5 text-white flex justify-between items-center">
+                <div>
+                    <h3 id="modal-title" class="text-lg font-bold">Start Your 7-Day Free Trial</h3>
+                    <p class="text-xs text-slate-400">No credit card required. 100% NDA Protected.</p>
+                </div>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-white text-2xl font-bold">&times;</button>
+            </div>
+
+            <form id="lead-form" onsubmit="handleFormSubmit(event)" class="p-6 space-y-4 text-xs">
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">Full Name *</label>
+                    <input type="text" name="name" required placeholder="John Doe" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-emerald-600 text-sm">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-bold text-slate-700 mb-1">Work Email *</label>
+                        <input type="email" name="email" required placeholder="john@company.com" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-emerald-600 text-sm">
+                    </div>
+                    <div>
+                        <label class="block font-bold text-slate-700 mb-1">Company / CPA Firm</label>
+                        <input type="text" name="company" placeholder="Acme CPA" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-emerald-600 text-sm">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-bold text-slate-700 mb-1">Primary Software</label>
+                        <select name="software" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-emerald-600 text-sm bg-white">
+                            <option>QuickBooks Online</option>
+                            <option>Xero</option>
+                            <option>Zoho Books</option>
+                            <option>NetSuite</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block font-bold text-slate-700 mb-1">Preferred Call Date</label>
+                        <input type="date" name="preferred_date" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-emerald-600 text-sm">
+                    </div>
+                </div>
+                <button type="submit" id="submit-btn" class="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm uppercase tracking-wider shadow-lg shadow-emerald-600/30">
+                    Confirm & Start Trial
+                </button>
+            </form>
+
+            <div id="form-success" class="hidden p-8 text-center space-y-4">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-3xl mx-auto">
+                    <i class="ph-bold ph-check-circle"></i>
+                </div>
+                <h3 class="text-xl font-bold text-navy-900">Request Confirmed!</h3>
+                <p class="text-xs text-slate-600">Our senior accounting team will reach out in &lt; 2 hours with your NDA and onboarding steps.</p>
+                <button onclick="closeModal()" class="px-6 py-2 rounded-xl bg-navy-900 text-white font-bold text-xs">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legal Policy Modal -->
+    <div id="legal-modal" class="fixed inset-0 bg-navy-950/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-6 text-xs text-slate-600 space-y-3">
+            <h3 id="legal-title" class="text-base font-bold text-navy-900"></h3>
+            <div id="legal-content"></div>
+            <button onclick="document.getElementById('legal-modal').classList.add('hidden')" class="w-full py-2 bg-navy-950 text-white rounded-xl font-bold mt-4">Close</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+
+        let isAnnual = false;
+        function toggleBilling() {
+            isAnnual = !isAnnual;
+            const circle = document.getElementById('toggle-circle');
+            const monthlyLabel = document.getElementById('monthly-label');
+            const annualLabel = document.getElementById('annual-label');
+            const prices = document.querySelectorAll('.price-value');
+
+            if (isAnnual) {
+                circle.classList.add('translate-x-6');
+                monthlyLabel.classList.replace('text-slate-600', 'text-slate-400');
+                annualLabel.classList.replace('text-slate-400', 'text-emerald-600');
+            } else {
+                circle.classList.remove('translate-x-6');
+                monthlyLabel.classList.replace('text-slate-400', 'text-slate-600');
+                annualLabel.classList.replace('text-emerald-600', 'text-slate-400');
+            }
+
+            prices.forEach(el => {
+                el.textContent = '$' + (isAnnual ? el.getAttribute('data-annual') : el.getAttribute('data-monthly'));
+            });
+        }
+
+        function openModal(type) {
+            document.getElementById('modal-backdrop').classList.remove('hidden');
+            document.getElementById('modal-title').textContent = type === 'trial' ? "Start 7-Day Free Trial" : "Book a Free Call";
+            document.getElementById('lead-form').classList.remove('hidden');
+            document.getElementById('form-success').classList.add('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal-backdrop').classList.add('hidden');
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+            const submitBtn = document.getElementById('submit-btn');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+
+            try {
+                // Replace the URL below with your endpoint (e.g. Formspree, Web3Forms, or custom server)
+                /* 
+                await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+                    method: 'POST',
+                    body: new FormData(e.target),
+                    headers: { 'Accept': 'application/json' }
+                });
+                */
+                
+                document.getElementById('lead-form').classList.add('hidden');
+                document.getElementById('form-success').classList.remove('hidden');
+            } catch (err) {
+                alert('An error occurred submitting your request. Please try again.');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Confirm & Start Trial';
+            }
+        }
+
+        function openLegalModal(policy) {
+            const modal = document.getElementById('legal-modal');
+            const title = document.getElementById('legal-title');
+            const content = document.getElementById('legal-content');
+
+            if (policy === 'privacy') {
+                title.textContent = "Privacy Policy";
+                content.textContent = "We protect all client details and financial metadata with strict confidentiality. No third-party data sharing.";
+            } else if (policy === 'security') {
+                title.textContent = "Data Security Policy";
+                content.textContent = "256-bit SSL encryption, SOC2 Type II compliance, and restricted physical terminals ensure complete security in India.";
+            } else {
+                title.textContent = "Terms of Service";
+                content.textContent = "All plans are month-to-month. You can cancel or scale up services at any time with zero penalty.";
+            }
+            modal.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
